@@ -1,0 +1,81 @@
+/* body style affects whole page */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: whitesmoke;
+  color: #6d0202;
+  margin: 0;
+
+}
+/* image is set as background of header element, it will repeat */
+header {
+  border: thin solid white;
+  background-image: url(images/cardsbanner.png);
+  height: 235px;
+}
+/*styles the navigation links*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav li a.active {
+  background-color: rgb(172, 6, 6);
+  color: white;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+/* these three create the narrow, wide, narrow columns */
+#left {
+  
+  padding: 2%;
+  float: left;
+  width: 22%;
+  border-right: thin solid rgb(172, 6, 6);
+}
+#center{
+  padding: 1%;
+  width: 44%;
+  float: left;
+}
+#right {
+ 
+  padding: 2%;
+  float: left;
+  width: 22%;
+  border-left: thin solid rgb(172, 6, 6);
+}
+/* sets font and centers headlines */
+h2 {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Viner Hand ITC', 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+/* styles the footer with a border */
+footer {
+  clear: both;
+  border: thick outset red;
+}

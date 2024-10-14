@@ -1,0 +1,103 @@
+/*body styles affect the whole page*/
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #72bf6a;
+  text-align: center;
+}
+header {
+  
+}
+/*sets the navigation list and link styles*/
+
+
+.nav_items {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.text{
+font-size: 30px;
+}
+
+.center {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #fff0f5;
+  background-color: #fffaf0;
+}
+
+nav ul li {
+  float: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+nav ul li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+  background-color: #fff0f5;
+}
+
+nav ul li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+/*set the card styles*/
+.card {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 220px;
+  height: 200px;
+}
+
+
+
+.card img {
+  width: 100%;
+  height: 140px;
+}
+
+.card h2 {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card p {
+  padding: 10px;
+}
+/*put a border around the footer*/
+footer {
+
+  border: 1px dashed silver;
+  height: 50px;
+  width: 100%;
+ position:absolute;;
+  background-color: #134c7d;
+
+  
+}  
+
